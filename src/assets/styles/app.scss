@@ -1,0 +1,40 @@
+// Force the form autofill background to be white on Chrome.
+input:-webkit-autofill { -webkit-box-shadow:0 0 0 500px white inset !important; }
+
+html, body, #assessmenttool, #app {
+  font-family: Helvetica, sans-serif !important;
+  height: 100%;
+  margin: 0px;
+}
+
+input, textarea {
+  // Firefox browser validation hack
+  box-shadow: none;
+}
+
+a {
+  border: none;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.material-icons {
+  vertical-align: bottom;
+}
+
+/*
+ * IE Hacks
+ */
+
+input::-ms-clear, input::-ms-reveal{
+  display: none;
+}
+
+// Target IE to respect aspect ratios and sizes for img tags containing SVG files
+.ie9 img[src*=".svg"] {
+  width: 100%;
+}
