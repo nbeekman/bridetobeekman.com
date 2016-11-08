@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway');
+
 // Force the form autofill background to be white on Chrome.
 input:-webkit-autofill { -webkit-box-shadow:0 0 0 500px white inset !important; }
 
-html, body, #assessmenttool, #app {
-  font-family: Helvetica, sans-serif !important;
+html, body, #bridetobeekman {
+  font-family: 'Raleway', Helvetica, sans-serif !important;
   height: 100%;
   margin: 0px;
 }
@@ -24,6 +26,11 @@ a {
 
 .material-icons {
   vertical-align: bottom;
+}
+
+.amatic {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
 }
 
 /*

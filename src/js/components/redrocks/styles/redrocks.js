@@ -4,8 +4,13 @@ const styles = {
     width: '100%',
     textAlign: 'center',
   },
+  title: {
+    fontSize: '80px',
+    margin: '20px 0px',
+  },
   label: {
-    fontSize: '14px',
+    fontSize: '22px',
+    margin: '10px 0px',
   },
   image: {
     width: '50%',
