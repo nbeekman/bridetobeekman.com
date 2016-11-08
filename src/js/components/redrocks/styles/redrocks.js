@@ -13,7 +13,8 @@ const styles = {
     margin: '10px 0px',
   },
   image: {
-    width: '50%',
+    width: '90%',
+    maxWidth: '600px',
   },
 };
 
