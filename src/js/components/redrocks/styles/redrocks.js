@@ -6,7 +6,12 @@ const styles = {
   },
   title: {
     fontSize: '80px',
-    margin: '20px 0px',
+    margin: '20px 0px 0px 0px',
+  },
+  subTitle: {
+    fontSize: '20px',
+    margin: '-10px 0px 20px 0px',
+    fontStyle: 'italic',
   },
   label: {
     fontSize: '22px',
