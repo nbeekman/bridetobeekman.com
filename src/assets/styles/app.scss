@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway:400,700');
 
 // Force the form autofill background to be white on Chrome.
 input:-webkit-autofill { -webkit-box-shadow:0 0 0 500px white inset !important; }
@@ -31,6 +31,12 @@ a {
 .amatic {
   font-family: 'Amatic SC', cursive;
   font-weight: 400;
+}
+
+#header {
+  .active {
+    color: #8a594e;
+  }
 }
 
 /*

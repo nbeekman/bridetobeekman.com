@@ -2,7 +2,7 @@ const styles = {
   header: {
     padding: '0px 30px',
     width: '100%',
-    backgroundColor: 'rgba(0,0,0,0.8)',
+    backgroundColor: '#2e323d',
     boxSizing: 'border-box',
     color: '#ffffff',
     position: 'fixed',
@@ -15,6 +15,7 @@ const styles = {
     margin: '0px',
     fontSize: '50px',
     lineHeight: '60px',
+    cursor: 'pointer',
   },
   linkList: {
     float: 'right',
@@ -25,14 +26,14 @@ const styles = {
   linkListItem: {
     display: 'inline-block',
     lineHeight: '60px',
-    fontSize: '16px',
+    fontSize: '18px',
     cursor: 'pointer',
     marginRight: '20px',
   },
   linkListItemLast: {
     display: 'inline-block',
     lineHeight: '60px',
-    fontSize: '16px',
+    fontSize: '18px',
     cursor: 'pointer',
   },
 };
