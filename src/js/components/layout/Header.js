@@ -13,32 +13,32 @@ const Header = () => (
     </h1>
     <ul style={ styles.linkList }>
       <li style={ styles.linkListItem }>
-        <Link activeClass="active" to={ 'welcome' } spy smooth duration={ 500 } offset={ -60 }>
+        <Link activeClass="active" to={ 'welcome' } spy smooth duration={ 500 } offset={ -70 }>
           Welcome
         </Link>
       </li>
       <li style={ styles.linkListItem }>
-        <Link activeClass="active" to={ 'ourStory' } spy smooth duration={ 500 } offset={ -60 }>
+        <Link activeClass="active" to={ 'ourStory' } spy smooth duration={ 500 } offset={ -70 }>
           Our Story
         </Link>
       </li>
       <li style={ styles.linkListItem }>
-        <Link activeClass="active" to={ 'party' } spy smooth duration={ 500 } offset={ -60 }>
+        <Link activeClass="active" to={ 'party' } spy smooth duration={ 500 } offset={ -70 }>
           Party
         </Link>
       </li>
       <li style={ styles.linkListItem }>
-        <Link activeClass="active" to={ 'accommodations' } spy smooth duration={ 500 } offset={ -60 }>
+        <Link activeClass="active" to={ 'accommodations' } spy smooth duration={ 500 } offset={ -70 }>
           Accommodations
         </Link>
       </li>
       <li style={ styles.linkListItem }>
-        <Link activeClass="active" to={ 'thingsToDo' } spy smooth duration={ 500 } offset={ -60 }>
+        <Link activeClass="active" to={ 'thingsToDo' } spy smooth duration={ 500 } offset={ -70 }>
           Things To Do
         </Link>
       </li>
       <li style={ styles.linkListItemLast }>
-        <Link activeClass="active" to={ 'registry' } spy smooth duration={ 500 } offset={ -60 }>
+        <Link activeClass="active" to={ 'registry' } spy smooth duration={ 500 } offset={ -70 }>
           Registry
         </Link>
       </li>
