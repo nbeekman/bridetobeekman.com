@@ -5,9 +5,6 @@ const styles = {
     padding: '0px 30px',
     boxSizing: 'border-box',
   },
-  heading: {
-    marginTop: '0px',
-  },
 };
 
 export default styles;

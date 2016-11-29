@@ -3,7 +3,9 @@ import styles from 'js/components/party/styles/party';
 
 const Party = () => (
   <div id="party" style={ styles.container }>
-    <h2 style={ styles.heading }>Party</h2>
+    <h2 className="amatic sectionHeader">
+      <span>&#171;</span> Party <span>&#187;</span>
+    </h2>
     <p style={ { height: '1000px' } }>content</p>
   </div>
 );
