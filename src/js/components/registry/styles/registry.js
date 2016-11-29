@@ -1,7 +1,7 @@
 const styles = {
   container: {
     width: '100%',
-    margin: '10px 0px 200px 0px',
+    margin: '10px 0px 100px 0px',
     padding: '0px 30px',
     boxSizing: 'border-box',
   },

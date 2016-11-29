@@ -2,7 +2,7 @@ const styles = {
   footer: {
     padding: '0px 30px',
     width: '100%',
-    height: '300px',
+    height: '400px',
     backgroundColor: '#2e323d',
     backgroundSize: '100% auto',
     boxSizing: 'border-box',

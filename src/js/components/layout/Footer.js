@@ -4,7 +4,7 @@ import Silverton from 'assets/images/silverton.jpg';
 
 const Footer = () => (
   <footer id="footer" style={ Object.assign({ background: `url(${Silverton}) no-repeat center` }, styles.footer) }>
-    <p style={ styles.footerText }>Kaitlyn & Nathan &#9829; August 19, 2017</p>
+    <p style={ styles.footerText }>&#8220;The mountains are calling and I must go.&#8221; <i>John Muir</i></p>
   </footer>
 );
 
