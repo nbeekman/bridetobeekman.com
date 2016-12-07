@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Bride to Beekman",
   "main": "build/bundle.js",
-  "author": "",
+  "author": "Nathan Beekman",
   "license": "ISC",
   "dependencies": {
     "flux": "^2.1.1",

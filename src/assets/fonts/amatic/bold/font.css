@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Amatic SC';
+  src: url(#{$icon-font-path}/amatic/bold/Amatic-Bold.eot); /* IE9 Compat Modes */
+  src: url(#{$icon-font-path}/amatic/bold/Amatic-Bold.eot?#iefix) format('embedded-opentype'), /* IE6-IE8 */
+  url(#{$icon-font-path}/amatic/bold/Amatic-Bold.woff) format('woff'), /* Modern Browsers */
+  url(#{$icon-font-path}/amatic/bold/Amatic-Bold.ttf)  format('truetype'); /* Safari, Android, iOS */
+
+  font-style:   bold;
+  font-weight:  700;
+}
+

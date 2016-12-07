@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Raleway:400,700');
+$icon-font-path: '../fonts/';
+
+@import '../fonts/amatic/bold/font';
+@import '../fonts/amatic/regular/font';
+@import '../fonts/raleway/bold/font';
+@import '../fonts/raleway/regular/font';
 
 // Force the form autofill background to be white on Chrome.
 input:-webkit-autofill { -webkit-box-shadow:0 0 0 500px white inset !important; }
