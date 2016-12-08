@@ -12,6 +12,7 @@ const styles = {
   },
   heading: {
     margin: '0px',
+    fontSize: '20px',
   },
   headingListCont: {
     textAlign: 'center',
@@ -21,12 +22,15 @@ const styles = {
     display: 'inline-block',
     listStyle: 'none',
     padding: '0px',
-    marginRight: '100px',
+    verticalAlign: 'top',
   },
-  listLast: {
-    display: 'inline-block',
-    listStyle: 'none',
-    padding: '0px',
+  listItem: {
+    marginBottom: '10px',
+    width: '300px',
+  },
+  linkDescr: {
+    margin: '0px',
+    fontSize: '12px',
   },
 };
 

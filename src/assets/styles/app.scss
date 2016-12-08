@@ -11,7 +11,7 @@ input:-webkit-autofill { -webkit-box-shadow:0 0 0 500px white inset !important; 
 html, body, #bridetobeekman {
   font-family: 'Raleway', Helvetica, sans-serif !important;
   height: 100%;
-  margin: 0px;
+  margin: 0;
   color: #2e323d;
 }
 
@@ -53,6 +53,14 @@ a {
   span {
     font-size: 40px;
     vertical-align: middle;
+  }
+}
+
+.link {
+  color: #8a594e;
+  font-style: italic;
+  &:hover {
+    border-bottom: 1px dotted #8a594e;
   }
 }
 
