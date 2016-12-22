@@ -1,75 +1,24 @@
 import React from 'react';
 import styles from 'js/components/ourstory/styles/ourStory';
-import Nate from 'assets/images/nate.jpg';
-import Kait from 'assets/images/kait.jpg';
-import NateKait from 'assets/images/k&n.jpg';
 
 const OurStory = () => (
   <div id="ourStory" style={ styles.container }>
     <h2 className="amatic sectionHeader">
       <span>&#171;</span> Our Story <span>&#187;</span>
     </h2>
-    <div style={ { marginBottom: '20px' } }>
-      <div
-        style={ {
-          width: '200px',
-          height: '200px',
-          borderRadius: '100px',
-          background: `#e6e6e6 url(${Nate}) no-repeat center center`,
-          backgroundSize: '200px 200px',
-          boxSizing: 'border-box',
-          verticalAlign: 'top',
-          display: 'inline-block',
-        } }
-      />
-      <div
-        style={ {
-          display: 'inline-block',
-          verticalAlign: 'top',
-          boxSizing: 'border-box',
-          width: 'calc(100% - 400px)',
-          padding: '0px 40px',
-        } }
-      >
+    <div style={ styles.contentContainer }>
+      <div style={ styles.kait } />
+      <div style={ styles.contentText }>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam orci nisi, mollis vitae libero nec,
-          elementum facilisis nulla. Vestibulum blandit congue rutrum. Sed et felis in massa malesuada iaculis
-          quis at turpis. Donec et justo rutrum, posuere felis vel, molestie est. Proin scelerisque sapien quis
-          quam suscipit tempor. Ut libero ipsum, cursus eu efficitur sed, facilisis condimentum sapien.
-          Duis facilisis in sem non consectetur. Duis est lorem, pharetra in leo eget, porta sodales risus.
-        </p>
-        <p>
-          Phasellus tincidunt leo id malesuada consectetur. Donec quam urna, laoreet non mauris sed,
-          eleifend sollicitudin ligula. Pellentesque congue est vel metus condimentum semper.
-          Suspendisse euismod neque eget fringilla blandit. Vestibulum eu felis in tellus aliquet bibendum
-          eget ac dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-          turpis egestas. Ut sed turpis vestibulum, scelerisque libero eget, semper nisi.
+          Our story began in March 2014 at a party at Nathan&#8217;s in Denver. After a mutual friend and one of Nathan's roommates introduced
+          us, we hit it off (Thanks Kelsey!!). Even though we had just met, everyone at the party thought that Kaitlyn was Nathan&#8217;s friend.
+          Throughout the next month we became great friends. After seeing each other and hanging out frequently, we both knew it was only a
+          matter of time. It was that first fateful evening where the initial sparks flew, and the fire has been burning ever since.
         </p>
       </div>
-      <div
-        style={ {
-          width: '200px',
-          height: '200px',
-          borderRadius: '100px',
-          background: `#e6e6e6 url(${Kait}) no-repeat center center`,
-          backgroundSize: '200px 200px',
-          float: 'right',
-          boxSizing: 'border-box',
-          verticalAlign: 'top',
-          display: 'inline-block',
-        } }
-      />
+      <div style={ styles.nate } />
     </div>
-    <div
-      style={ {
-        width: '315px',
-        height: '315px',
-        borderRadius: '160px',
-        background: `#e6e6e6 url(${NateKait}) no-repeat 0px 0px`,
-        backgroundSize: '350px 350px',
-        margin: '0 auto',
-      } }
-    />
+    <div style={ styles.kaitNate } />
   </div>
 );
 

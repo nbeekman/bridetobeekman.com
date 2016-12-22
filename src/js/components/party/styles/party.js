@@ -8,6 +8,13 @@ const styles = {
     padding: '0px 30px',
     boxSizing: 'border-box',
   },
+  partyDescr: {
+    textAlign: 'center',
+    marginBottom: '30px',
+  },
+  partyDescrText: {
+    margin: '0px',
+  },
   partyContentLeft: {
     display: 'inline-block',
     width: '50%',
@@ -46,6 +53,10 @@ const styles = {
     width: '350px',
     display: 'block',
     margin: '10px auto',
+  },
+  parking: {
+    textAlign: 'center',
+    fontSize: '14px',
   },
 };
 

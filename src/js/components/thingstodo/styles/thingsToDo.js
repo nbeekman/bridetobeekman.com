@@ -16,7 +16,6 @@ const styles = {
   },
   headingListCont: {
     textAlign: 'center',
-    marginBottom: '20px',
   },
   list: {
     display: 'inline-block',
@@ -25,11 +24,11 @@ const styles = {
     verticalAlign: 'top',
   },
   listItem: {
-    marginBottom: '10px',
+    marginBottom: '15px',
     width: '300px',
   },
   linkDescr: {
-    margin: '0px',
+    margin: '5px 0px 0px 0px',
     fontSize: '12px',
   },
 };
