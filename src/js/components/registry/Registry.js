@@ -24,12 +24,12 @@ const Registry = () => (
           <img src={ ReiLogo } alt="rei" style={ styles.reiLogo } />
         </a>
       </li>
-      <li style={ styles.logoListItem }>
+      <li style={ styles.logoListItemMiddle }>
         <a href="https://www.anthropologie.com/registry/listing?registryId=MZY2NJRHZTBM" target="_blank">
           <img src={ AnthropologieLogo } alt="anthropologie" style={ styles.anthroLogo } />
         </a>
       </li>
-      <li style={ styles.logoListItemLast }>
+      <li style={ styles.logoListItem }>
         <a href="https://www.zola.com/registry/nathanandkaitlyn" target="_blank">
           <img src={ ZolaLogo } alt="zola" style={ styles.zolaLogo } />
         </a>

@@ -25,26 +25,22 @@ const styles = {
     lineHeight: '50px',
     textAlign: 'center',
     verticalAlign: 'top',
-    marginRight: '70px',
+    margin: '10px 0px',
   },
-  logoListItemLast: {
+  logoListItemMiddle: {
     display: 'inline-block',
     height: '50px',
     lineHeight: '50px',
     textAlign: 'center',
     verticalAlign: 'top',
+    margin: '10px 70px',
   },
-  anthroLogo: {
-    // height: '100%',
-    // width: '100%',
-  },
+  anthroLogo: {},
   reiLogo: {
     height: '100%',
-    // width: '100%',
   },
   zolaLogo: {
     height: '100%',
-    // width: '100%',
   },
 };
 
