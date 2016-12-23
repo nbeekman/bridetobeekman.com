@@ -16,7 +16,7 @@ const Registry = () => (
     <p style={ styles.text2 }>
       However, if you&#8217;d like to help Kaitlyn get Nathan outside more, feel free to visit REI.
       Or if you feel like adding a little spice to our kitchen, you can browse Anthropologie.
-      You can also check out our honeyfund at Zola.
+      You can also check out our honeyfund and other home goods at Zola.
     </p>
     <ul style={ styles.logoList }>
       <li style={ styles.logoListItem }>
