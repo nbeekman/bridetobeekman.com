@@ -2,6 +2,7 @@ const styles = {
   header: {
     padding: '0px 30px',
     width: '100%',
+    height: '60px',
     backgroundColor: '#2e323d',
     boxSizing: 'border-box',
     color: '#ffffff',
@@ -19,23 +20,66 @@ const styles = {
     cursor: 'pointer',
   },
   linkList: {
-    float: 'right',
     padding: '0px',
     margin: '0px',
     listStyle: 'none',
   },
   linkListItem: {
+    display: 'block',
+    lineHeight: '60px',
+    fontSize: '18px',
+    cursor: 'pointer',
+    textAlign: 'right',
+  },
+  linkListItemLast: {
+    display: 'block',
+    lineHeight: '60px',
+    fontSize: '18px',
+    cursor: 'pointer',
+    textAlign: 'right',
+  },
+  linkListMenu: {
+    float: 'right',
+    padding: '0px',
+    margin: '0px',
+    listStyle: 'none',
+  },
+  linkListItemMenu: {
     display: 'inline-block',
     lineHeight: '60px',
     fontSize: '18px',
     cursor: 'pointer',
     marginRight: '20px',
   },
-  linkListItemLast: {
+  linkListItemMenuLast: {
     display: 'inline-block',
     lineHeight: '60px',
     fontSize: '18px',
     cursor: 'pointer',
+  },
+  drawerCont: {
+    display: 'inline',
+  },
+  drawer: {
+    backgroundColor: '#2e323d',
+    color: '#ffffff',
+    fontFamily: '`Raleway`, Helvetica, sans-serif !important',
+    paddingRight: '10px',
+    top: '60px',
+  },
+  openButton: {
+    marginTop: '16px',
+    display: 'inline-block',
+    cursor: 'pointer',
+    float: 'right',
+    color: '#ffffff',
+  },
+  closeButton: {
+    marginTop: '16px',
+    display: 'inline-block',
+    cursor: 'pointer',
+    float: 'right',
+    color: '#ffffff',
   },
 };
 

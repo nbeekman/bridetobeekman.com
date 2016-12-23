@@ -7,7 +7,7 @@ const styles = {
   },
   titleContainer: {},
   title: {
-    fontSize: '80px',
+    fontSize: '70px',
     margin: '20px 0px 0px 0px',
   },
   subTitle: {
