@@ -8,10 +8,12 @@ const styles = {
     maxWidth: '1000px',
     margin: '0 auto',
     textAlign: 'center',
+    overflow: 'hidden',
   },
   imgCont: {
     display: 'inline-block',
-    width: '500px',
+    maxWidth: '500px',
+    padding: '0px 20px 0px 0px',
   },
   image: {
     display: 'inline-block',
@@ -20,7 +22,7 @@ const styles = {
   },
   textCont: {
     display: 'inline-block',
-    width: '400px',
+    maxWidth: '400px',
     marginTop: '50px',
     textAlign: 'left',
     verticalAlign: 'top',
