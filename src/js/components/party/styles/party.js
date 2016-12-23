@@ -4,7 +4,6 @@ import BotanicGardens from 'assets/images/logos/denver-botanic-gardens.svg';
 const styles = {
   container: {
     width: '100%',
-    margin: '10px 0px 100px',
     padding: '0px 30px',
     boxSizing: 'border-box',
   },
@@ -14,6 +13,10 @@ const styles = {
   },
   partyDescrText: {
     margin: '0px',
+  },
+  partyContentContainer: {
+    maxWidth: '1000px',
+    margin: '0 auto',
   },
   partyContentLeft: {
     display: 'inline-block',
@@ -42,7 +45,7 @@ const styles = {
     background: `url(${MossDenver}) no-repeat center center`,
     backgroundSize: '100% 100%',
     height: '70px',
-    width: '350px',
+    width: '250px',
     display: 'block',
     margin: '10px auto',
   },

@@ -64,6 +64,16 @@ a {
   }
 }
 
+#welcome,
+#ourStory,
+#party,
+#accommodations,
+#thingsToDo,
+#registry {
+  max-width: 1500px;
+  margin: 10px auto 100px;
+}
+
 /*
  * IE Hacks
  */

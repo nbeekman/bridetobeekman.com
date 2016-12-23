@@ -5,7 +5,6 @@ import KaitNate from 'assets/images/k&n.jpg';
 const styles = {
   container: {
     width: '100%',
-    margin: '10px 0px 100px',
     padding: '0px 200px',
     boxSizing: 'border-box',
   },
