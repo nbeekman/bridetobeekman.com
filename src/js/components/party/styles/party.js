@@ -17,19 +17,20 @@ const styles = {
   partyContentContainer: {
     maxWidth: '1000px',
     margin: '0 auto',
+    textAlign: 'center',
   },
   partyContentLeft: {
     display: 'inline-block',
-    width: '50%',
+    maxWidth: '500px',
     boxSizing: 'border-box',
     textAlign: 'center',
     verticalAlign: 'top',
-    borderRight: '1px solid #000000',
     padding: '20px 0px',
   },
   partyContentRight: {
     display: 'inline-block',
-    width: '50%',
+    minWidth: '350px',
+    maxWidth: '500px',
     boxSizing: 'border-box',
     textAlign: 'center',
     verticalAlign: 'top',
