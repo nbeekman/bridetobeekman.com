@@ -5,7 +5,8 @@ const styles = {
     boxSizing: 'border-box',
   },
   content: {
-    padding: '0px 200px',
+    maxWidth: '1000px',
+    margin: '0 auto',
   },
   imgCont: {
     display: 'inline-block',
