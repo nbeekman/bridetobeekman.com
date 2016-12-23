@@ -7,21 +7,23 @@ const styles = {
   content: {
     maxWidth: '1000px',
     margin: '0 auto',
+    textAlign: 'center',
   },
   imgCont: {
     display: 'inline-block',
-    width: '50%',
+    width: '500px',
   },
   image: {
     display: 'inline-block',
-    maxWidth: '600px',
-    height: '300px',
+    maxWidth: '500px',
+    maxHeight: '300px',
   },
   textCont: {
     display: 'inline-block',
-    width: '50%',
-    position: 'relative',
-    top: '-90px',
+    width: '400px',
+    marginTop: '50px',
+    textAlign: 'left',
+    verticalAlign: 'top',
   },
   text: {
     margin: '0px',
