@@ -1,4 +1,4 @@
-import MossDenver from 'assets/images/logos/moss-denver.svg';
+import MossDenver from 'assets/images/logos/moss-denver.png';
 import BotanicGardens from 'assets/images/logos/denver-botanic-gardens.svg';
 
 const styles = {
@@ -44,9 +44,9 @@ const styles = {
   },
   mossDenver: {
     background: `url(${MossDenver}) no-repeat center center`,
-    backgroundSize: '100% 100%',
+    backgroundSize: '225px 42px',
     height: '70px',
-    width: '250px',
+    width: '350px',
     display: 'block',
     margin: '10px auto',
   },

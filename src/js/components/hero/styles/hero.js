@@ -1,8 +1,12 @@
+import HeroPhoto from 'assets/images/blanket-looking.jpg';
+
 const styles = {
   container: {
     height: 'calc(100vh - 60px)',
     width: '100%',
+    minHeight: '100%',
     textAlign: 'center',
+    background: `url(${HeroPhoto}) no-repeat center`,
     backgroundSize: 'cover',
   },
   titleContainer: {},
