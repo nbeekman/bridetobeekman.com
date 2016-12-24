@@ -18,7 +18,14 @@ const OurStory = () => (
         matter of time. And the rest, as they say, was history!
       </p>
     </div>
-    <div style={ styles.kaitNate } />
+    <div style={ styles.kNCont }>
+      <div style={ styles.kaitNate } />
+      <div style={ styles.kaitNate2 } />
+      <div style={ styles.kaitNate3 } />
+      <div style={ styles.kaitNate4 } />
+      <div style={ styles.kaitNate5 } />
+      <div style={ styles.kaitNate6 } />
+    </div>
   </div>
 );
 
