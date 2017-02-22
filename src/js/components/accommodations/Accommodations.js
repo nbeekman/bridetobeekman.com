@@ -36,6 +36,15 @@ const Accommodations = () => (
             </a>
           </p>
           <p style={ styles.text }>Phone: <a href="tel:303-603-8000">303.603.8000</a></p>
+          <p style={ styles.text }>
+            <a
+              href="http://hiltongardeninn.hilton.com/en/gi/groups/personalized/D/DENDDGI-MBWED-20170818/index.jhtml?WT.mc_id=POG"
+              target="_blank"
+              style={ styles.underline }
+            >
+              Discounted Online Reservation Link
+            </a>
+          </p>
         </li>
         <li style={ styles.listItemLast }>
           <h4 style={ styles.hotelName }>Hyatt Regency</h4>
@@ -51,7 +60,11 @@ const Accommodations = () => (
           </p>
           <p style={ styles.text }>Phone: <a href="tel:303-436-1234">303.436.1234</a></p>
           <p style={ styles.text }>
-            <a href="https://aws.passkey.com/go/minichbeekman2017" style={ styles.underline }>
+            <a
+              href="https://aws.passkey.com/go/minichbeekman2017"
+              target="_blank"
+              style={ styles.underline }
+            >
               Discounted Online Reservation Link
             </a>
           </p>
