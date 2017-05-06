@@ -10,18 +10,18 @@ const Accommodations = () => (
       <h3 style={ styles.description }>Mention the Minich-Beekman wedding to receive a discounted rate at any of these hotels!</h3>
       <ul style={ styles.list }>
         <li style={ styles.listItem }>
-          <h4 style={ styles.hotelName }>Grand Hyatt</h4>
-          <p style={ styles.text }>1750 Welton Street, Denver, CO 80202</p>
+          <h4 style={ styles.hotelName }>The Curtis Hotel</h4>
+          <p style={ styles.text }>1405 Curtis Street Denver, Colorado 80202</p>
           <p style={ styles.text }>
             <a
-              href="https://denver.grand.hyatt.com/en/hotel/home.html"
+              href="http://www.thecurtis.com/"
               target="_blank"
               style={ styles.underline }
             >
               Website
             </a>
           </p>
-          <p style={ styles.text }>Phone: <a href="tel:303-295-1234">303.295.1234</a></p>
+          <p style={ styles.text }>Phone: <a href="tel:303-571-0300">303.571.0300</a></p>
         </li>
         <li style={ styles.listItem }>
           <h4 style={ styles.hotelName }>Hilton Garden Inn</h4>
