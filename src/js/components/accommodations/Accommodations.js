@@ -11,7 +11,7 @@ const Accommodations = () => (
       <ul style={ styles.list }>
         <li style={ styles.listItem }>
           <h4 style={ styles.hotelName }>The Curtis Hotel</h4>
-          <p style={ styles.text }>1405 Curtis Street Denver, Colorado 80202</p>
+          <p style={ styles.text }>1405 Curtis Street Denver, CO 80202</p>
           <p style={ styles.text }>
             <a
               href="http://www.thecurtis.com/"
