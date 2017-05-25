@@ -35,11 +35,22 @@ const styles = {
     verticalAlign: 'top',
     margin: '10px 70px',
   },
+  logoListItemWrap: {
+    display: 'block',
+    height: '50px',
+    lineHeight: '50px',
+    textAlign: 'center',
+    verticalAlign: 'top',
+    margin: '10px 0px',
+  },
   anthroLogo: {},
   reiLogo: {
     height: '100%',
   },
   zolaLogo: {
+    height: '100%',
+  },
+  bbbLogo: {
     height: '100%',
   },
 };

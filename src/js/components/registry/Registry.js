@@ -3,6 +3,7 @@ import styles from 'js/components/registry/styles/registry';
 import AnthropologieLogo from 'assets/images/logos/anthropologie.svg';
 import ReiLogo from 'assets/images/logos/rei-logo-black.svg';
 import ZolaLogo from 'assets/images/logos/zola-logo-black.svg';
+import BBBLogo from 'assets/images/logos/bed-bath-beyond.svg';
 
 const Registry = () => (
   <div id="registry" style={ styles.container }>
@@ -32,6 +33,14 @@ const Registry = () => (
       <li style={ styles.logoListItem }>
         <a href="https://www.zola.com/registry/nathanandkaitlyn" target="_blank">
           <img src={ ZolaLogo } alt="zola" style={ styles.zolaLogo } />
+        </a>
+      </li>
+      <li style={ styles.logoListItemWrap }>
+        <a
+          href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?eventType=Wedding&registryId=544464262"
+          target="_blank"
+        >
+          <img src={ BBBLogo } alt="bbb" style={ styles.bbbLogo } />
         </a>
       </li>
     </ul>
